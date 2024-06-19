@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>評圖用計時器司儀程序(10分鐘版)</title>
+    <title>評圖用計時器司儀程序(8分鐘版)</title>
     <style>
         .but1 {
             display: inline-block;
@@ -60,7 +60,7 @@
 </head>
 <body>
     <h3>主簡報時間</h3>
-    <div id="timer">10:00</div>
+    <div id="timer">8:00</div>
     <button id="button1" onclick="startTimer()">開始計時</button>
     <button id="button2" onclick="stoppost()">評審提問</button>
     <button id="button3" onclick="startTimer2()">準備申覆</button>
@@ -74,7 +74,7 @@
     </div>
    
     <script>
-        let timeLeft = 600; // 初始時間為10分鐘，以秒為單位
+        let timeLeft = 480; // 初始時間為10分鐘，以秒為單位
         let timeLeft2 = 60; // 初始時間為5分鐘，以秒為單位
         let timeLeft3 = 60; // 初始時間為5分鐘，以秒為單位
         let timer; // 定時器變數
